@@ -4,21 +4,21 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "asciidoctor/indir_ext/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "asciidoctor-indir_ext"
+  spec.name          = "asciidoctor-indir-extension"
   spec.version       = Asciidoctor::IndirExt::VERSION
-  spec.authors       = ["johannesjh"]
-  spec.email         = ["johannesjh@users.noreply.github.com"]
+  spec.authors       = ["pustekuchen91"]
+  spec.email         = ["pustekuchen91@users.noreply.github.com"]
 
   spec.summary       = "An Asciidoctor extension that adds a variable `indir`, which always points to the directory of the currently included asciidoc file"
   spec.description   = %q(This Asciidoctor extension exposes a variable `indir`, which holds the path to the directory where the current asciidoc file is located.
     The value of this variable changes to always reflect the location of the current, included subdocument.
     (Note, this is in contrast to the `docfile` variable, which remains the same throughout an entire document).)
-  spec.homepage      = "https://github.com/johannesjh/asciidoctor-indir_ext"
+  spec.homepage      = "https://github.com/pustekuchen91/asciidoctor-indir_ext"
   spec.license       = "MIT"
 
   spec.metadata = {
-    'bug_tracker_uri' => 'https://github.com/johannesjh/asciidoctor-indir_ext/issues',
-    'source_code_uri' => 'https://github.com/johannesjh/asciidoctor-indir_ext'
+    'bug_tracker_uri' => 'https://github.com/pustekuchen91/asciidoctor-indir_ext/issues',
+    'source_code_uri' => 'https://github.com/pustekuchen91/asciidoctor-indir_ext'
   }
 
   # Specify which files should be added to the gem when it is released.
