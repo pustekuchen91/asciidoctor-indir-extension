@@ -7,7 +7,7 @@ This extension solves the problem that standard asciidoctor allows [no relative 
 
 ## Status and Maintenance
 
-This is a fork of https://github.com/johannesjh/asciidoctor-indir_ext. I just updated some dependencies to work make it work with the latest asciidoc version
+This is a fork of https://github.com/johannesjh/asciidoctor-indir_ext. I just updated some dependencies to make it work with the latest asciidoc version.
 
 
 ## Installation
@@ -15,7 +15,7 @@ This is a fork of https://github.com/johannesjh/asciidoctor-indir_ext. I just up
 If using bundler, add this line to your application's Gemfile:
 
 ```ruby
-gem 'asciidoctor-indir_ext'
+gem 'asciidoctor-indir-extension'
 ```
 
 And then execute:
@@ -25,7 +25,7 @@ And then execute:
 
 If you do not wish to use bundler, install as:
 
-    $ gem install asciidoctor-indir_ext
+    $ gem install asciidoctor-indir-extension
 
 
 ## Usage
@@ -41,14 +41,14 @@ If you do not wish to use bundler, install as:
 For example:
 
 ```bash
-bundle exec asciidoctor -r asciidoctor-indir_ext master.adoc
+bundle exec asciidoctor -r asciidoctor-indir-extension master.adoc
 ```
 
 
 ...or without bundler:
 
 ```bash
-asciidoctor -r asciidoctor-indir_ext master.adoc
+asciidoctor -r asciidoctor-indir-extension master.adoc
 ```
 
 As a result, the extension provides an `indir` variable, which always points at the directory of the included asciidoc file. This allows image paths like `{indir}/images/example.svg` to be resolved relative to the included subdocument.
@@ -70,8 +70,7 @@ and thus avoids messing with the local system setup.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/johannesjh/asciidoctor-indir_ext.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/pustekuchen91/asciidoctor-indir-extension.
 
 
 ## Credits
