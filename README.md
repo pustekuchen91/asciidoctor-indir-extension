@@ -7,9 +7,7 @@ This extension solves the problem that standard asciidoctor allows [no relative 
 
 ## Status and Maintenance
 
-Maintainers wanted. 
-
-This asciidoctor extension has served me well, but I currently don't use it anymore, and I have not updated it for a while.
+This is a fork of https://github.com/johannesjh/asciidoctor-indir_ext. I just updated some dependencies to work make it work with the latest asciidoc version
 
 
 ## Installation
